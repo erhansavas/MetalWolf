@@ -1,0 +1,19 @@
+# Builds the app and runs the checks that need no GPU, audio device or
+# display, on every push to main and every pull request.
+name: macOS CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    name: Build and test
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v5
+      - name: Metal toolchain
+        run: xcrun -sdk macosx metal --version || xcodebuild -downloadComponent MetalToolchain
+      - name: Build and test
+        run: make -j4 check

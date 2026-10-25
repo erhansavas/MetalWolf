@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>MetalWolf</string>
+<key>CFBundleIdentifier</key><string>org.metalwolf.MetalWolf</string>
+<key>CFBundleName</key><string>MetalWolf</string>
+<key>CFBundleDisplayName</key><string>MetalWolf</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>LSArchitecturePriority</key><array><string>arm64</string></array>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrefersDisplaySafeAreaCompatibilityMode</key><false/>
+<key>NSSupportsAutomaticGraphicsSwitching</key><true/>
+<key>LSSupportsGameMode</key><true/>
+<key>LSApplicationCategoryType</key><string>public.app-category.games</string>
+<key>GCSupportedGameControllers</key><array><dict><key>ProfileName</key><string>ExtendedGamepad</string></dict></array>
+<key>NSHumanReadableCopyright</key><string>Free software under the GNU GPL v2. Not affiliated with id Software, ZeniMax Media or Microsoft. No warranty.</string>
+</dict></plist>

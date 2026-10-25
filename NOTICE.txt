@@ -1,0 +1,43 @@
+MetalWolf
+
+MetalWolf is an independent macOS port of the Wolfenstein 3D engine source
+code. It is not affiliated with, endorsed by or sponsored by id Software or
+ZeniMax Media. Wolfenstein is a trademark of ZeniMax Media; the name is used
+here only to say which game this port runs.
+
+License
+
+  MetalWolf is free software, distributed under the GNU General Public
+  License, version 2 (see LICENSE). It comes with NO WARRANTY.
+
+  The engine is Wolf4SDL, a port of id Software's Wolfenstein 3D source code:
+    https://github.com/fabiangreffrath/wolf4sdl
+    revision a51c229ed89cab1904d68abb8938def3cf456725
+    Copyright (C) 1992 Id Software, Inc.
+    Copyright (C) 2007-2011 Moritz "Ripper" Kroll
+    Copyright (C) 2020 Fabian Greffrath
+  Wolf4SDL offers the original Wolfenstein 3D source under either id
+  Software's original license or the GNU GPL; this distribution uses the
+  GNU GPL v2.
+
+  The AdLib sound and music emulator is Nuked OPL3, Copyright (C) 2013-2020
+  Nuke.YKT, under the GNU Lesser General Public License version 2.1 or later
+  (see LICENSE-LGPL-2.1.txt). Its complete source is in src/wolf/opl3.c and
+  opl3.h.
+
+  Every engine file changed for this port says so in its first line. The
+  macOS platform code (src/platform), the Metal shader, the app icon (an
+  original picture drawn by tools/icon.mm when the app is built, and
+  docs/icon.png, a copy of it for the README) and the
+  build files are original to this port and are licensed under the GNU GPL
+  v2 only. No
+  SDL code, headers or libraries are used.
+
+Game data
+
+  No game data is included: no maps, graphics, sounds or music from
+  Wolfenstein 3D. The startup picture compiled into the original source
+  release is not included either. You need your own copy of Wolfenstein 3D
+  version 1.4 (GT/Activision or Apogee), or the shareware episode.
+
+  The sounds of the gore effects are synthesized by the program at run time.
